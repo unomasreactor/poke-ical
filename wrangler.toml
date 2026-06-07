@@ -1,0 +1,7 @@
+name = "poke-ical"
+main = "src/worker.ts"
+compatibility_date = "2025-01-01"
+
+# Required secrets (set via `npx wrangler secret put`):
+#   CALDAV_USERNAME  — Apple ID email
+#   CALDAV_PASSWORD  — App-specific password from appleid.apple.com
